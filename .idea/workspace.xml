@@ -4,6 +4,7 @@
     <list default="true" id="36f98d55-bf19-4485-aba7-d794fbe8a6fa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw" afterPath="$PROJECT_DIR$/hw" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ba/ba_test.go" afterPath="$PROJECT_DIR$/ba/ba_test.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,30 +27,52 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="49" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
-                <element signature="e#14#100#0" expanded="true" />
+                <element signature="e#14#147#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hw_bill_acc.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_bill_acc.go">
+      <file leaf-file-name="ba_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ba/ba_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="375" column="0" lean-forward="false" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
+            <state relative-caret-position="-144">
+              <caret line="55" column="44" lean-forward="true" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+              <folding>
+                <element signature="e#16#139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nd_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nd/nd_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checksum.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/checksum.go">
+      <file leaf-file-name="hw_bill_acc.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_bill_acc.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="593">
+              <caret line="500" column="0" lean-forward="false" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cctalk.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/hw/cctalk/cctalk.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="84" column="22" lean-forward="false" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -94,18 +117,18 @@
         <option value="$PROJECT_DIR$/util/socket.go" />
         <option value="$PROJECT_DIR$/util/CCTALK_driver.go" />
         <option value="$PROJECT_DIR$/ba/ba.go" />
-        <option value="$PROJECT_DIR$/ba/ba_test.go" />
         <option value="$PROJECT_DIR$/util/serial_linux.go" />
         <option value="$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_cctalk_driver.go" />
         <option value="$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_bill_acc.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/ba/ba_test.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="405" />
-    <option name="y" value="1098" />
-    <option name="width" value="1317" />
+    <option name="x" value="49" />
+    <option name="y" value="18" />
+    <option name="width" value="1311" />
     <option name="height" value="750" />
   </component>
   <component name="ProjectView">
@@ -123,6 +146,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -165,9 +191,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,7 +214,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestBillAcceptorGetSerialNumberMustEqual166138 in ba_test.go (1)">
+  <component name="RunManager" selected="Go Test.Test_BA_Connect in ba_test.go">
     <configuration default="false" name="TestBillAcceptorGetSerialNumberMustEqual166138 in ba_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="nd" />
       <working_directory value="$PROJECT_DIR$" />
@@ -208,6 +231,24 @@
       <kind value="PACKAGE" />
       <package value="gitlab.com/paybox/hw/ba" />
       <pattern value="^TestBillAcceptorGetSerialNumberMustEqual166138$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test_BA_Connect in ba_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="hw" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gitlab.com/paybox/hw/ba" />
+      <pattern value="^Test_BA_Connect$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test_CcTalk_Connect in ba_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="hw" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gitlab.com/paybox/hw/ba" />
+      <pattern value="^Test_CcTalk_Connect$" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -479,14 +520,18 @@
       <setting name="rowsRange" value="" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Go Test.TestBillAcceptorGetSerialNumberMustEqual166138 in ba_test.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Test.TestBillAcceptorGetSerialNumberMustEqual166138 in ba_test.go (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.Test_BA_Connect in ba_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.Test_CcTalk_Connect in ba_test.go" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestBillAcceptorGetSerialNumberMustEqual166138 in ba_test.go (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestBillAcceptorGetSerialNumberMustEqual166138 in ba_test.go" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.Test_BA_Connect in ba_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.Test_CcTalk_Connect in ba_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestBillAcceptorGetSerialNumberMustEqual166138 in ba_test.go (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestBillAcceptorGetSerialNumberMustEqual166138 in ba_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -510,10 +555,19 @@
     <history-entry file="TestBillAcceptorGetSerialNumberMustEqual166138_in_ba_test_go_(1) - 2018.08.28 at 17h 33m 19s.xml">
       <configuration name="TestBillAcceptorGetSerialNumberMustEqual166138 in ba_test.go (1)" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="Test_BA_Connect_in_ba_test_go - 2018.09.17 at 09h 26m 54s.xml">
+      <configuration name="Test_BA_Connect in ba_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_BA_Connect_in_ba_test_go - 2018.09.17 at 09h 29m 39s.xml">
+      <configuration name="Test_BA_Connect in ba_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Test_CcTalk_Connect_in_ba_test_go - 2018.09.17 at 09h 29m 27s.xml">
+      <configuration name="Test_CcTalk_Connect in ba_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="405" y="1098" width="1317" height="750" extended-state="6" />
-    <editor active="true" />
+    <frame x="49" y="18" width="1311" height="750" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -535,11 +589,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16444445" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.75703704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.050113894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22654462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -560,12 +614,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_bill_acc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8748">
+          <caret line="500" column="0" lean-forward="false" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_bill_acc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#100#0" expanded="true" />
+            <element signature="e#14#147#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -583,19 +663,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#100#0" expanded="true" />
+            <element signature="e#14#147#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_cctalk_driver.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="51" column="8" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_cctalk_driver.go" />
     <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_bill_acc.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5040">
@@ -609,7 +682,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#100#0" expanded="true" />
+            <element signature="e#14#147#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -679,7 +752,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#100#0" expanded="true" />
+            <element signature="e#14#147#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -749,7 +822,7 @@
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#14#100#0" expanded="true" />
+            <element signature="e#14#147#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -774,22 +847,8 @@
     <entry file="file://$PROJECT_DIR$/util/CCTALK_driver.go" />
     <entry file="file://$PROJECT_DIR$/util/socket.go" />
     <entry file="file://$PROJECT_DIR$/nd/nd.go" />
-    <entry file="file://$PROJECT_DIR$/nd/nd_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serial/serial_linux.go" />
     <entry file="file://$PROJECT_DIR$/ba/ba.go" />
-    <entry file="file://$PROJECT_DIR$/ba/ba_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/builtin/builtin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1566">
@@ -828,29 +887,48 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_cctalk_driver.go" />
-    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/checksum.go">
+    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/checksum.go" />
+    <entry file="file://$PROJECT_DIR$/nd/nd_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/hw/cctalk/cctalk.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="84" column="22" lean-forward="false" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_bill_acc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="500" column="0" lean-forward="false" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="e#14#100#0" expanded="true" />
+            <element signature="e#14#147#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_bill_acc.go">
+    <entry file="file://$PROJECT_DIR$/ba/ba_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="375" column="0" lean-forward="false" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-144">
+          <caret line="55" column="44" lean-forward="true" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+          <folding>
+            <element signature="e#16#139#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

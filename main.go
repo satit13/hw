@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/payboxth/vending/host/hw/cctalk"
+
 	"github.com/payboxth/vending/host/model"
 	"log"
 	//"time"
@@ -10,12 +12,13 @@ import (
 
 func main() {
 
-	CCT := &model.CCTalkDriver{}
+	CCT := &cctalk.Driver{}
 
 	// try to connect CCT Port
 	err := CCT.OpenConnection("/dev/ttyCCTALK", 9600)
 	if err != nil {
-		log.Println(err)
+		log.Println("Error OpenConnection ccTalk state : ", err)
+		return
 	} else {
 		fmt.Println("CCT Connected...")
 		go CCT.StartPolling()
@@ -25,7 +28,7 @@ func main() {
 		DeviceID:       0x28,
 		Status:         "idle",
 		Send:           make(chan *model.Message, 10),
-		TakeRejectNote: make(chan bool),
+		//TakeRejectNote: make(chan bool),
 		EscrowValue:    make(chan float64, 1),
 		StackedValue:   make(chan float64, 1),
 	}
@@ -34,13 +37,17 @@ func main() {
 	//  then Open BA
 	if CCT.Online && !CCT.Busy {
 		fmt.Println(" try BA.Open(*CCT)...")
-		BA.Open(*CCT)
+		err := BA.Open(*CCT)
+		if err != nil {
+			fmt.Println("BA Open Error : ", err.Error())
+			return
+		}
 	}
 
 	// ---- TEST --
 	fmt.Println(" สั่งเปิด Test รอรับ ธนบัตร .... Start")
 	BA.SetEnable(true)
-	BA.SetInhibit4(false, 1, 1, 1, 1)
+
 	fmt.Printf("BA GetEnable -> %v \n", BA.Enable)
 	fmt.Println("BA status : ", BA.Status)
 
@@ -59,7 +66,7 @@ func main() {
 
 	for {
 		noteIndex, noteData, err := BA.OnBillReceived()
-		fmt.Printf("Recived payment ...  noteIndex - %v, noteData - %v", noteIndex, noteData)
+		//fmt.Printf("Recived payment ...  noteIndex - %v, noteData - %v", noteIndex, noteData)
 		if err != nil {
 			fmt.Println("error ", err.Error())
 			errorRetry++
