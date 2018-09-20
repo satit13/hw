@@ -9,12 +9,9 @@ import (
 )
 
 func main() {
-	mockND, _ := mock.NewNDMockRepo()
+	ndrepo, _ := mock.NewNDMockRepo()
 	//ndrepo, _ := hardware.NewNDRepo()
-	ndService, _ := nd.NewService(mockND)
-
-	//mockND, _ := mock.NewNDMockRepo()
-	//ndServicex, _ := nd.NewService(mockND)
+	ndService, _ := nd.NewService(ndrepo)
 
 	err := ndService.Open("/dev/ttyS0", 9600)
 	if err != nil {

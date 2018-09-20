@@ -81,29 +81,6 @@ const (
 )
 
 // OpenConnection เป็นเมธอดเปิดพอร์ตอนุกรมที่ใช้สื่อสารกับอุปกรณ์ ccTalk
-func (cctalk *Driver) Conn(portName string, baudRate int) error {
-	readTimeout := time.Millisecond * 100
-	cctalk.SerialPortConfig = &serial.Config{Name: portName, Baud: baudRate, ReadTimeout: readTimeout}
-	//log.Printf("ccTalk serial.Config: Name:%v|Baud:%v|ReadTimeout:%v", portName, baudRate, readTimeout)
-	if len(portName) == 0 || baudRate == 0 {
-		return errors.New("No port name or baud rate specification")
-	}
-
-	serialPort, err := serial.OpenPort(cctalk.SerialPortConfig)
-	if err != nil || serialPort == nil {
-		log.Println("CCTalkDriver.OpenConnection ", err)
-		return err
-	}
-	cctalk.Port = *serialPort
-	cctalk.Online = true
-	cctalk.RequestPool = lane.NewQueue()
-	if err != nil {
-		log.Println("CCTalkDriver.OpenConnection ", err)
-		return err
-	}
-	fmt.Println(cctalk)
-	return nil
-}
 
 
 // StartPolling เป็นเมธอดคอยตรวจสอบว่ามีการหยอดเหรียญหรือใส่ธนบัตรเข้ามาหรือไม่ เหรียญอะไร ธนบัตรอะไร

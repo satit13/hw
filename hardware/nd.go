@@ -10,16 +10,17 @@ import (
 	"gitlab.com/paybox/hw/util"
 )
 
+
 func NewNDRepo() (nd.Repository, error) {
-	nd := ndrepo{}
+	nd := repo{}
 	return &nd, nil
 }
 
-type ndrepo struct {
+type repo struct {
 	nd.NoteDispenser
 }
 
-func (nd *ndrepo) Connect(portName string, speed int) (err error) {
+func (nd *repo) Connect(portName string, speed int) (err error) {
 	serialPortConfig := &serial.Config{Name: portName, Baud: 9600, Parity: serial.ParityEven, ReadTimeout: time.Millisecond * 100}
 	serialPort, err := serial.OpenPort(serialPortConfig)
 	if err != nil {
@@ -28,21 +29,21 @@ func (nd *ndrepo) Connect(portName string, speed int) (err error) {
 	}
 	nd.Port = *serialPort
 
-	s, d, err := nd.RequestMachineStatus()
-	if err != nil {
-		log.Printf("NoteDispenser status error : status=%v, data=%v, error=%s ", s, d, err)
-		return err
-	}
-	err = nd.ResetDispenser()
-	if err != nil {
-		log.Println("NoteDispenser reset error : ", err)
-		return err
-	}
+	//s, d, err := nd.RequestMachineStatus()
+	//if err != nil {
+	//	log.Printf("NoteDispenser status error : status=%v, data=%v, error=%s ", s, d, err)
+	//	return err
+	//}
+	//err = nd.ResetDispenser()
+	//if err != nil {
+	//	log.Println("NoteDispenser reset error : ", err)
+	//	return err
+	//}
 	nd.Online = true
 	return nil
 }
 
-func (nd *ndrepo) ResetDispenser() error {
+func (nd *repo) ResetDispenser() error {
 	ict_reset_dispenser_cmd := []byte{0x1, 0x10, nd.DeviceId, 0x12, 0x0}
 	checksum := util.CheckSum8Modulo256(ict_reset_dispenser_cmd)
 	dataWithChecksum := append(ict_reset_dispenser_cmd, checksum)
@@ -55,7 +56,7 @@ func (nd *ndrepo) ResetDispenser() error {
 	return nil
 }
 
-func (nd *ndrepo) RequestMachineStatus() (status byte, data byte, err error) {
+func (nd *repo) RequestMachineStatus() (status byte, data byte, err error) {
 	ictRequestMachineStatusCmd := []byte{0x1, 0x10, nd.DeviceId, 0x11, 0x0}
 	checksum := util.CheckSum8Modulo256(ictRequestMachineStatusCmd)
 	dataWithChecksum := append(ictRequestMachineStatusCmd, checksum)
@@ -91,10 +92,21 @@ func (nd *ndrepo) RequestMachineStatus() (status byte, data byte, err error) {
 	return
 }
 
-func (nd *ndrepo) PayNote(qty int) error {
+func (nd *repo) PayNote(noteCount byte) error {
+	ict_dispense_note_cmd := []byte{0x1, 0x10, nd.DeviceId, 0x10, noteCount}
+	checksum := util.CheckSum8Modulo256(ict_dispense_note_cmd)
+	dataWithChecksum := append(ict_dispense_note_cmd, checksum)
+	log.Printf("Request dispenseNote : % X\n", dataWithChecksum)
+
+	_, err := nd.Write(dataWithChecksum)
+	if err != nil {
+		log.Fatal(err)
+		return err
+	}
 	return nil
+
 }
 
-func (nd *ndrepo) GetStatus() (string, error) {
-	return " id from hardware 0001", nil
+func (nd *repo) GetStatus() (string, error) {
+	return "ND001", nil
 }

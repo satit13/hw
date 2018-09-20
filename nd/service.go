@@ -2,7 +2,7 @@ package nd
 
 type Service interface {
 	Open(string, int) error
-	Dispense(qty int) error
+	Dispense(qty byte) error
 	Status() (string, error)
 }
 
@@ -23,7 +23,7 @@ func (s *service) Open(port string, speed int) error {
 	return nil
 }
 
-func (s *service) Dispense(qty int) error {
+func (s *service) Dispense(qty byte) error {
 	err := s.hw.PayNote(qty)
 	if err != nil {
 		return err
@@ -36,6 +36,5 @@ func (s *service) Status() (string, error) {
 	if err != nil {
 		return "", err
 	}
-
 	return id, nil
 }

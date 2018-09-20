@@ -26,10 +26,10 @@ func (nd *ndrepo) RequestMachineStatus() (status byte, data byte, err error) {
 	return 255, 0, nil
 }
 
-func (nd *ndrepo) PayNote(qty int) error {
+func (nd *ndrepo) PayNote(qty byte) error {
 	return nil
 }
 
 func (nd *ndrepo) GetStatus() (string, error) {
-	return " id from Mock  M0001", nil
+	return "M0001", nil
 }

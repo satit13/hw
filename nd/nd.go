@@ -6,7 +6,7 @@ import (
 
 type Repository interface {
 	Connect(string, int) error
-	PayNote(int) error
+	PayNote(byte) error
 	GetStatus() (string, error)
 }
 
