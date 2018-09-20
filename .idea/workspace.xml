@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36f98d55-bf19-4485-aba7-d794fbe8a6fa" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hw.iml" afterPath="$PROJECT_DIR$/pb.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cctalk/cctalk.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cctalk/hw_cctalk.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mock/cctalk.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mock/nd.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nd/hardware.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nd/nd.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nd/service.go" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pb.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw" afterPath="$PROJECT_DIR$/hw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nd/nd_test.go" afterPath="$PROJECT_DIR$/nd/nd_test.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,64 +35,109 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
-                <element signature="e#14#147#0" expanded="true" />
+                <element signature="e#14#96#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ba_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ba/ba_test.go">
+      <file leaf-file-name="log.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../github.com/labstack/gommon/log/log.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-              <folding>
-                <element signature="e#16#184#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nd_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nd/nd_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="e#17#169#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hw_bill_acc.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_bill_acc.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="926" column="38" lean-forward="false" selection-start-line="926" selection-start-column="38" selection-end-line="926" selection-end-column="38" />
+            <state relative-caret-position="125">
+              <caret line="245" column="5" lean-forward="false" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nd.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nd/nd.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hardware.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nd/hardware.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="e#12#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cctalk.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cctalk/cctalk.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="93" column="48" lean-forward="false" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+              <folding>
+                <element signature="e#16#112#0" expanded="true" />
+                <element signature="e#347#1746#0" expanded="false" />
+                <element signature="e#3187#3370#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="cctalk.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/hw/cctalk/cctalk.go">
+        <entry file="file://$PROJECT_DIR$/mock/cctalk.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="escpos.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/hw/printer/escpos.go">
+      <file leaf-file-name="queue.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../gopkg.in/oleiade/lane.v1/queue.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="468">
+              <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hw_cctalk.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cctalk/hw_cctalk.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nd/service.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#Open#0" expanded="false" />
+                <element signature="n#!!block;n#DispensNote#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nd.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mock/nd.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -122,24 +176,38 @@
         <option value="$PROJECT_DIR$/checksum.go" />
         <option value="$PROJECT_DIR$/socket/socket.go" />
         <option value="$PROJECT_DIR$/CCTALK_driver.go" />
-        <option value="$PROJECT_DIR$/nd/nd.go" />
         <option value="$PROJECT_DIR$/socket.go" />
         <option value="$PROJECT_DIR$/util/socket.go" />
         <option value="$PROJECT_DIR$/util/CCTALK_driver.go" />
         <option value="$PROJECT_DIR$/ba/ba.go" />
         <option value="$PROJECT_DIR$/util/serial_linux.go" />
         <option value="$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_cctalk_driver.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/nd/nd_test.go" />
         <option value="$PROJECT_DIR$/ba/ba_test.go" />
         <option value="$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_bill_acc.go" />
+        <option value="$PROJECT_DIR$/nd/service.go" />
+        <option value="$PROJECT_DIR$/mock/nd.go" />
+        <option value="$PROJECT_DIR$/hardware/nd.go" />
+        <option value="$PROJECT_DIR$/nd/nd.go" />
+        <option value="$PROJECT_DIR$/nd/hardware.go" />
+        <option value="$PROJECT_DIR$/cctalk/hardware.go" />
+        <option value="$PROJECT_DIR$/cctalk/service.go" />
+        <option value="$PROJECT_DIR$/cctalk/cctalk_hw.go" />
+        <option value="$PROJECT_DIR$/cctalk/hw_cctalk.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/cctalk/cctalk.go" />
+        <option value="$PROJECT_DIR$/mock/cctalk.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1920" />
-    <option name="height" value="1056" />
+    <option name="x" value="405" />
+    <option name="y" value="1098" />
+    <option name="width" value="1317" />
+    <option name="height" value="750" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -194,7 +262,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ba" />
+              <option name="myItemId" value="mock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cctalk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,9 +295,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/serial" />
       <recent name="$PROJECT_DIR$/util" />
@@ -223,17 +302,11 @@
       <recent name="$PROJECT_DIR$/socket" />
       <recent name="$PROJECT_DIR$/" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Test.All in 'gitlab.com/paybox/hw/ba'">
-    <configuration default="false" name="Test_BA_Connect in ba_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="hw" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="gitlab.com/paybox/hw/ba" />
-      <pattern value="^Test_BA_Connect$" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Single File.go run main.go">
     <configuration default="false" name="Test_CcTalk_Connect_NoCCTalk_Should_Fail in ba_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="hw" />
       <working_directory value="$PROJECT_DIR$" />
@@ -267,6 +340,12 @@
       <kind value="PACKAGE" />
       <package value="gitlab.com/paybox/hw/ba" />
       <pattern value="^Test_BA_Connect_NoDevice_Should_Fail$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run main.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="hw" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -539,19 +618,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.Test_BA_Connect in ba_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.Test_CcTalk_Connect_NoCCTalk_Should_Fail in ba_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.All in 'gitlab.com/paybox/hw/ba'" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.Test_BA_Open in ba_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.Test_BA_Connect_NoDevice_Should_Fail in ba_test.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.Test_CcTalk_Connect_NoCCTalk_Should_Fail in ba_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.All in 'gitlab.com/paybox/hw/ba'" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.Test_BA_Open in ba_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.Test_BA_Connect_NoDevice_Should_Fail in ba_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.All in 'gitlab.com/paybox/hw/ba'" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.Test_BA_Open in ba_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.Test_BA_Connect_NoDevice_Should_Fail in ba_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.Test_CcTalk_Connect_NoCCTalk_Should_Fail in ba_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.Test_BA_Connect in ba_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.All in 'gitlab.com/paybox/hw/ba'" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.Test_BA_Open in ba_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.Test_BA_Connect_NoDevice_Should_Fail in ba_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.Test_CcTalk_Connect_NoCCTalk_Should_Fail in ba_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -569,10 +648,10 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_'gitlab_com_paybox_hw_ba' - 2018.09.19 at 08h 47m 24s.xml">
+    <history-entry file="All_in_'gitlab_com_paybox_hw_ba' - 2018.09.19 at 08h 53m 56s.xml">
       <configuration name="All in 'gitlab.com/paybox/hw/ba'" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="All_in_'gitlab_com_paybox_hw_ba' - 2018.09.19 at 08h 53m 56s.xml">
+    <history-entry file="All_in_'gitlab_com_paybox_hw_ba' - 2018.09.20 at 12h 50m 10s.xml">
       <configuration name="All in 'gitlab.com/paybox/hw/ba'" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="Test_BA_Connect_NoDevice_Should_Fail_in_ba_test_go - 2018.09.19 at 08h 50m 05s.xml">
@@ -601,8 +680,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="405" y="1098" width="1317" height="750" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -624,11 +703,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3985729" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22074074" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3404689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25777778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25520834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20197418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -650,98 +729,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_bill_acc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5202">
-          <caret line="300" column="24" lean-forward="false" selection-start-line="300" selection-start-column="24" selection-end-line="300" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_cctalk_driver.go" />
-    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_bill_acc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5040">
-          <caret line="291" column="24" lean-forward="false" selection-start-line="291" selection-start-column="24" selection-end-line="291" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../github.com/tarm/serial/serial_linux.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2214">
-          <caret line="129" column="5" lean-forward="false" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_bill_acc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2628">
-          <caret line="157" column="16" lean-forward="false" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="87" column="5" lean-forward="false" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/socket.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ba/ba_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nd/nd_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_cctalk_driver.go" />
     <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/vendor/gopkg.in/oleiade/lane.v1/queue.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -761,7 +748,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#147#0" expanded="true" />
+            <element signature="e#14#96#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -830,7 +817,7 @@
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#14#147#0" expanded="true" />
+            <element signature="e#14#96#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -854,16 +841,8 @@
     <entry file="file://$PROJECT_DIR$/util/checksum.go" />
     <entry file="file://$PROJECT_DIR$/util/CCTALK_driver.go" />
     <entry file="file://$PROJECT_DIR$/util/socket.go" />
-    <entry file="file://$PROJECT_DIR$/nd/nd.go" />
     <entry file="file://$PROJECT_DIR$/serial/serial_linux.go" />
     <entry file="file://$PROJECT_DIR$/ba/ba.go" />
-    <entry file="file:///usr/local/go/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="87" column="5" lean-forward="false" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/socket.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -895,16 +874,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/hw_cctalk_driver.go" />
     <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/model/checksum.go" />
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../github.com/payboxth/vending/host/vendor/github.com/tarm/serial/serial_linux.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
@@ -917,17 +886,7 @@
         <state relative-caret-position="432">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="e#17#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ba/ba_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-          <folding>
-            <element signature="e#16#184#0" expanded="true" />
+            <element signature="e#17#169#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -960,6 +919,155 @@
         <state relative-caret-position="594">
           <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ba/ba_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="e#16#184#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hardware/nd.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock/nd.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nd/service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#Open#0" expanded="false" />
+            <element signature="n#!!block;n#DispensNote#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nd/hardware.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#12#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cctalk/hardware.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cctalk/service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cctalk/cctalk_hw.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../github.com/labstack/gommon/log/log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="245" column="5" lean-forward="false" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="236" column="5" lean-forward="false" selection-start-line="236" selection-start-column="5" selection-end-line="236" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#14#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nd/nd.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cctalk/hw_cctalk.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../gopkg.in/oleiade/lane.v1/queue.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock/cctalk.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cctalk/cctalk.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="93" column="48" lean-forward="false" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+          <folding>
+            <element signature="e#16#112#0" expanded="true" />
+            <element signature="e#347#1746#0" expanded="false" />
+            <element signature="e#3187#3370#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
